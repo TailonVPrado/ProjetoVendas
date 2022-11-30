@@ -1,0 +1,11 @@
+- Existem algumas coisas "simples" que realmente nao foram feitas por causa de 
+  tempo, como por exemplo uma lista de valores (LOVs) para os campos de IDs, 
+  porem a falta desse item nao faz com que nao se possa usar as rotinas de cadastro.
+
+- Outro "problema" é que caso o item tenha o valor unitario alterado o relatorio de 
+  venda acaba exibindo o valor total do item da compra de forma errada, pois na tabela 
+  ITEMVENDA nao existe uma coluna de valor unitario do momento da venda por exemplo, mas 
+  acredtio que isso seja algo mais superficial, por se tratar de uma "regra de negócio"
+
+- O arquivo script.sql possui os scripts para a criação de tableas,mas o arquivo BackupBdProjetoVendas.sql
+  possui um backup do banco de dados usados para codificar o projeto, e pode ser feito um restore no postgress
